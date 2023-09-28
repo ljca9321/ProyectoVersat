@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoVersat", "ProyectoVersat\ProyectoVersat.csproj", "{FBD1C11B-7765-4205-B42E-4DF22CA6542D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLibreriaVersat", "ProyectoLibreriaVersat\ProyectoLibreriaVersat.csproj", "{9E1E36F6-4B68-427C-BE09-7567A3806163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD1C11B-7765-4205-B42E-4DF22CA6542D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD1C11B-7765-4205-B42E-4DF22CA6542D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD1C11B-7765-4205-B42E-4DF22CA6542D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD1C11B-7765-4205-B42E-4DF22CA6542D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1E36F6-4B68-427C-BE09-7567A3806163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1E36F6-4B68-427C-BE09-7567A3806163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1E36F6-4B68-427C-BE09-7567A3806163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1E36F6-4B68-427C-BE09-7567A3806163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A229B4AE-BD63-49E1-8FB5-8DEC35AA4A32}
+	EndGlobalSection
+EndGlobal
