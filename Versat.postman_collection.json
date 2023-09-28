@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "89bfea0e-7f52-4728-955d-824394fbb00b",
+		"name": "Versat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10293297"
+	},
+	"item": [
+		{
+			"name": "ResultadoContable",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"concepto\": \"110505\",\r\n    \"fecha\": \"2022-09-28\",\r\n    \"valor\": 1000000\r\n  },\r\n  {\r\n    \"concepto\": \"110505\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 1000000\r\n  },\r\n  {\r\n    \"concepto\": \"110510\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 2000000\r\n  },\r\n  {\r\n    \"concepto\": \"190505\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 104000\r\n  },\r\n  {\r\n    \"concepto\": \"220501\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 234000\r\n  },\r\n  {\r\n    \"concepto\": \"233545\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 4000000\r\n  },\r\n  {\r\n    \"concepto\": \"260550\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 12340000\r\n  },\r\n  {\r\n    \"concepto\": \"410501\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 1230000000\r\n  },\r\n  {\r\n    \"concepto\": \"510560\",\r\n    \"fecha\": \"2023-09-28\",\r\n    \"valor\": 124500000\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7065/api/Contable/InformacionContable",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7065",
+					"path": [
+						"api",
+						"Contable",
+						"InformacionContable"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
